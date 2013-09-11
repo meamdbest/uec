@@ -1,0 +1,13 @@
+header,
+section {
+    max-width:100%;
+}
+
+header h1 a {
+    background-size: 90%;
+    width: auto;
+}
+
+h1 {
+	margin: 0;
+}

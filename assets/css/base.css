@@ -1,0 +1,241 @@
+body {
+    background: url(../images/background.png) top left #F2F2F2;
+    color: #333;
+    font-family: 'Asap', sans-serif;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+header,
+section {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+}
+
+header h1 a {
+    background: url(../images/banner.png) no-repeat center center;
+    color: #0049a4;
+    display: block;
+    height: 262px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-indent: -9999px;
+    width: 394px;
+}
+
+section {
+    background: #FFF url(../images/corner_gradient.png) no-repeat 100% 0;
+    border: 1px solid #DDD;
+    box-shadow: 5px 5px 5px #888;
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+label,
+#signUp {
+    display: block;
+    margin-top: 10px;
+}
+
+/*** Header Styles ***/
+
+nav ul {
+    overflow: hidden;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 3px;
+    padding-left: 0;
+}
+
+nav li a {
+    background: #EEE;
+    border: 1px solid #0049a4;
+    color: #0049a4;
+    display: block;
+    margin: 0 1px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background: #CCC
+}
+
+/*** Form styles ***/
+
+form {
+    overflow: hidden
+}
+
+form fieldset button {
+    float: none;
+    margin-left: 180px;
+}
+
+form button {
+    float: right
+}
+
+fieldset {
+    border: none;
+    min-width: 310px;
+}
+
+.element {
+    overflow: hidden;
+    padding: 2px 0;
+}
+
+.element label {
+    line-height: 2px;
+    min-width: 180px;
+}
+
+.element label,
+.element input,
+.element select {
+    float: left
+}
+
+/*** Error styles ***/
+
+.element.error label,
+.element.error .error-message {
+    color: #dd0000;
+    font-weight: bold;
+}
+
+.element.error input {
+
+}
+
+.error-message {
+    /* Yes, this is dirty */
+    display: none;
+    nowhitespace: afterproperty;
+}
+
+.element.error .error-message {
+    display: block;
+    float: left;
+    padding: 5px 0 0 5px;
+}
+
+/*** Homepage ***/
+
+#home h2 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+#home h3 {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+#home blockquote {
+    text-align: center
+}
+
+#home img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#home #counter {
+    margin: 20px auto;
+    width: 499px;
+}
+
+#home .cntSeparator {
+    font-size: 54px;
+    margin: 10px 7px;
+    color: #000;
+}
+
+#home .highlight {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#gallery .photo {
+    float: left;
+    height: 70px;
+    margin: 3px;
+    overflow: hidden;
+    width: 70px;
+}
+
+#gallery .photo img {
+    margin: -15px 0 0 -15px
+}
+
+/*** Scores ***/
+
+#scores table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#scores table th,
+#scores table td {
+    padding: 5px;
+}
+
+#scores table tbody th {
+    text-align: left;
+    width: 25%;
+}
+
+#scores table tbody td {
+    border: 1px solid silver;
+    text-align: center;
+}
+
+/*** Leaderboard ***/
+
+#leaderboard table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#leaderboard table th,
+#leaderboard table td {
+    padding: 5px;
+}
+
+
+#leaderboard table tbody td {
+    border: 1px solid silver;
+    text-align: center;
+}
+
+#leaderboard .first {
+    font-size: 2.5em;
+}
+
+#leaderboard .second {
+    font-size: 2em;
+}
+
+#leaderboard .third {
+    font-size: 1.5em;
+}
